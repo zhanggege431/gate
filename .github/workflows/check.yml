@@ -1,8 +1,7 @@
 name: VPN Gate Node Check
 on:
   schedule:
-    - cron: "0 0 * * *"
-      timezone: Asia/Shanghai  # 使用北京时间
+    - cron: "00 * *  *"
   workflow_dispatch:
 permissions:
   contents: read
